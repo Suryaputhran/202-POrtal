@@ -1,0 +1,202 @@
+.aboutUsChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 839px);
+  width: 1679px;
+  height: 728px;
+  overflow: hidden;
+}
+.frameChild {
+  position: relative;
+  width: 43px;
+  height: 43px;
+}
+.groupParent,
+.portal {
+  display: flex;
+  align-items: center;
+}
+.portal {
+  position: relative;
+  font-weight: 500;
+  width: 115px;
+  flex-shrink: 0;
+}
+.groupParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.insights1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24.95px;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+.insights {
+  position: relative;
+  width: 55px;
+  height: 25px;
+}
+.insights2,
+.insights4 {
+  line-height: 24.95px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.insights2 {
+  position: relative;
+  cursor: pointer;
+}
+.insights4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.insightsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+  font-size: 14.12px;
+}
+.startAProject {
+  position: absolute;
+  top: calc(50% - 4.5px);
+  left: 19px;
+  line-height: 18.14px;
+  text-transform: uppercase;
+}
+.vectorIcon {
+  position: absolute;
+  width: 6.29%;
+  top: calc(50% - 3.5px);
+  right: 10.57%;
+  left: 83.14%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 7.31px;
+}
+.link {
+  position: relative;
+  border-radius: var(--br-3341xl);
+  box-shadow: 0 0 0 0.67px #000;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 173.52px;
+  height: 42.31px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header,
+.linkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linkWrapper {
+  font-size: var(--font-size-xs);
+}
+.header {
+  position: absolute;
+  top: 52px;
+  left: calc(50% - 779.5px);
+  gap: var(--gap-361xl);
+}
+.frameItem {
+  position: absolute;
+  top: calc(50% - 56.62px);
+  left: calc(50% - 35.75px);
+  width: 70.59px;
+  height: 75.59px;
+}
+.groupContainer,
+.portal1 {
+  position: absolute;
+  width: 85.98px;
+}
+.portal1 {
+  top: 92.25px;
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.groupContainer {
+  top: 850px;
+  left: 96.51px;
+  height: 113.25px;
+  font-size: 17.25px;
+  color: var(--black);
+}
+.aboutUs1 {
+  position: relative;
+  letter-spacing: -2.35px;
+  line-height: 92.4px;
+  font-weight: 500;
+}
+.divtrackSeparator {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 1504px;
+  height: 2px;
+}
+.aboutUsParent {
+  position: absolute;
+  top: 331px;
+  left: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-61xl);
+}
+.component6Icon {
+  position: absolute;
+  top: 319px;
+  left: calc(50% - 747px);
+  width: 150px;
+  height: 150px;
+}
+.portalLlcIs {
+  position: relative;
+  line-height: 30.49px;
+  display: inline-block;
+  width: 933px;
+}
+.frameInner {
+  position: relative;
+  border-top: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+  width: 1377px;
+  height: 0;
+}
+.portalLlcIsALeadingHoldinParent {
+  position: absolute;
+  top: 850px;
+  left: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  font-size: 17.48px;
+  color: var(--black);
+}
+.aboutUs {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 2111px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 23.07px;
+  color: var(--white);
+  font-family: var(--font-inter);
+}

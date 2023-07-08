@@ -1,0 +1,38 @@
+.cabdd6171493d0b8b655dArrowsvIcon {
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% - 30.55px);
+  top: 15.28px;
+  right: 13.87px;
+  bottom: 15.27px;
+  max-height: 100%;
+  width: 11.76px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.startAProject {
+  position: relative;
+  line-height: 18.14px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.link {
+  position: relative;
+  border-radius: var(--br-3341xl);
+  background-color: var(--color-gray-400);
+  box-shadow: 0 0 0 0.67px #000;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10.579999923706055px 41.36000442504883px 12.730001449584961px
+    20.15999984741211px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 12.44px;
+  color: var(--black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,339 @@
+.insightsChild,
+.insightsItem {
+  position: absolute;
+  left: calc(50% - 839px);
+}
+.insightsChild {
+  top: 0;
+  width: 1679px;
+  height: 728px;
+  overflow: hidden;
+}
+.insightsItem {
+  top: 4302px;
+  background: linear-gradient(180deg, #03001e, #550e42);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1678px;
+  height: 1349px;
+}
+.frameChild {
+  position: relative;
+  width: 43px;
+  height: 43px;
+}
+.groupParent,
+.portal {
+  display: flex;
+  align-items: center;
+}
+.portal {
+  position: relative;
+  font-weight: 500;
+  width: 115px;
+  flex-shrink: 0;
+}
+.groupParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.insights2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24.95px;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+.insights1 {
+  position: relative;
+  width: 55px;
+  height: 25px;
+}
+.insights3,
+.insights5 {
+  line-height: 24.95px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.insights3 {
+  position: relative;
+  cursor: pointer;
+}
+.insights5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.insightsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+  font-size: 14.12px;
+}
+.startAProject {
+  position: absolute;
+  top: calc(50% - 4.5px);
+  left: 19px;
+  line-height: 18.14px;
+  text-transform: uppercase;
+}
+.vectorIcon {
+  position: absolute;
+  width: 6.29%;
+  top: calc(50% - 3.5px);
+  right: 10.57%;
+  left: 83.14%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 7.31px;
+}
+.link {
+  position: relative;
+  border-radius: var(--br-3341xl);
+  box-shadow: 0 0 0 0.67px #000;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 173.52px;
+  height: 42.31px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header,
+.linkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linkWrapper {
+  font-size: var(--font-size-xs);
+}
+.header {
+  position: absolute;
+  top: 52px;
+  left: calc(50% - 779.5px);
+  gap: var(--gap-361xl);
+  font-size: 23.07px;
+  color: var(--white);
+}
+.insights8 {
+  position: relative;
+  letter-spacing: -2.35px;
+  line-height: 92.4px;
+  font-weight: 500;
+}
+.divtrackSeparator {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 1504px;
+  height: 2px;
+}
+.insightsGroup,
+.theseAreJust {
+  position: absolute;
+  display: flex;
+}
+.insightsGroup {
+  top: 331px;
+  left: 301px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-61xl);
+  color: var(--white);
+}
+.theseAreJust {
+  bottom: 26px;
+  left: 0;
+  line-height: 30.49px;
+  align-items: center;
+  width: 1237px;
+}
+.divtrackSeparator1 {
+  position: absolute;
+  top: 85px;
+  right: 34px;
+  background-color: var(--color-gray-500);
+  width: 1203px;
+  height: 2px;
+}
+.theseAreJustAFewExamplesParent {
+  position: absolute;
+  top: 4433px;
+  left: 301px;
+  width: 1237px;
+  height: 87px;
+  font-size: 16.48px;
+  color: var(--white);
+}
+.component6Icon {
+  position: absolute;
+  top: 319px;
+  left: calc(50% - 747px);
+  width: 150px;
+  height: 150px;
+}
+.linkIcon {
+  position: absolute;
+  right: 1428.08px;
+  bottom: 1563.34px;
+  border-radius: 1303.57px;
+  width: 169.5px;
+  height: 169.5px;
+}
+.workParent {
+  top: 4756px;
+  width: 1293px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 68px;
+}
+.div,
+.ourPortfolio,
+.workParent {
+  position: absolute;
+  left: 92px;
+}
+.ourPortfolio {
+  top: 4664px;
+  font-size: var(--font-size-5xl);
+  line-height: 30.49px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--white);
+}
+.div {
+  top: 882px;
+  line-height: 41.58px;
+  color: var(--color-dimgray);
+}
+.insightsInner {
+  top: 938px;
+  width: 686px;
+  height: 323px;
+  object-fit: cover;
+}
+.heading2,
+.inTheFinance,
+.insightsInner {
+  position: absolute;
+  left: 92px;
+}
+.heading2 {
+  top: 1275px;
+  font-size: 60.84px;
+  letter-spacing: -2.35px;
+  line-height: 70.22px;
+  display: flex;
+  align-items: center;
+  width: 454.84px;
+  height: 80px;
+}
+.inTheFinance {
+  top: 1369px;
+  font-size: 18.48px;
+  line-height: 30.49px;
+  text-align: justify;
+  display: inline-block;
+  width: 681px;
+}
+.div1 {
+  position: relative;
+  line-height: 41.58px;
+  color: var(--color-dimgray);
+}
+.frameItem {
+  position: relative;
+  width: 686px;
+  height: 323px;
+  object-fit: cover;
+}
+.heading21 {
+  position: relative;
+  font-size: 60.84px;
+  letter-spacing: -2.35px;
+  line-height: 70.22px;
+  display: flex;
+  align-items: center;
+  width: 454.84px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.inTheHealthcare {
+  position: relative;
+  font-size: 18.48px;
+  line-height: 30.49px;
+  text-align: justify;
+  display: inline-block;
+  width: 681px;
+}
+.container,
+.group,
+.parent {
+  position: absolute;
+  top: 882px;
+  left: 852px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.container,
+.group {
+  top: 0;
+  left: 0;
+}
+.container {
+  left: 760px;
+}
+.frameParent {
+  position: absolute;
+  top: 1733px;
+  left: 92px;
+  width: 1446px;
+  height: 701px;
+}
+.heading25 {
+  position: relative;
+  font-size: 60.84px;
+  letter-spacing: -2.35px;
+  line-height: 70.22px;
+}
+.frameGroup,
+.parent2 {
+  position: absolute;
+  left: 92px;
+}
+.frameGroup {
+  top: 2584px;
+  width: 1454px;
+  height: 701px;
+}
+.parent2 {
+  top: 3435px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.insights {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 6125px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl-2);
+  color: var(--black);
+  font-family: var(--font-inter);
+}

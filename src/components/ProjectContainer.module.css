@@ -1,0 +1,49 @@
+.maskGroupIcon {
+  position: relative;
+  width: 595px;
+  height: 666px;
+  object-fit: cover;
+}
+.category,
+.heading3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.heading3 {
+  letter-spacing: -0.3px;
+  line-height: 50.4px;
+  font-weight: 500;
+  width: 595px;
+}
+.category {
+  font-size: 16.48px;
+  line-height: 30.49px;
+  font-weight: 300;
+  width: 293px;
+}
+.heading3EspiraMedicineParent,
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading3EspiraMedicineParent {
+  height: 67px;
+  padding: var(--padding-3xs) var(--padding-0);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.work {
+  position: absolute;
+  top: 3025px;
+  left: 204px;
+  height: 800px;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  text-align: left;
+  font-size: var(--font-size-12xl-6);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

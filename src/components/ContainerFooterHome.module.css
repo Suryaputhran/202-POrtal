@@ -1,0 +1,239 @@
+.footerChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #03001e, #550e42);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.linkHome {
+  font-size: 14.78px;
+}
+.linkHome,
+.linkWork {
+  position: relative;
+  line-height: 16.26px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkHomeParent {
+  position: absolute;
+  height: 27.22%;
+  width: 3.93%;
+  top: 23.95%;
+  right: 75.02%;
+  bottom: 48.84%;
+  left: 21.05%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.linkLinkedin {
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 57.29px;
+  height: 18.5px;
+}
+.linkBehance,
+.linkDribbble,
+.linkInstagram,
+.linkLinkedin {
+  position: absolute;
+  left: 0;
+  line-height: 16.26px;
+  font-weight: 500;
+}
+.linkInstagram {
+  top: 28.34px;
+  display: flex;
+  align-items: center;
+  width: 70.11px;
+  height: 18.5px;
+}
+.linkBehance,
+.linkDribbble {
+  top: 57.69px;
+}
+.linkBehance {
+  top: 85.03px;
+  display: flex;
+  align-items: center;
+  width: 59.56px;
+  height: 18.5px;
+}
+.divwNodeBebeba02Bc61Af4c {
+  position: absolute;
+  height: 21.84%;
+  width: 4.18%;
+  top: 23.64%;
+  right: 58.79%;
+  bottom: 54.51%;
+  left: 37.04%;
+}
+.contactUs,
+.link {
+  position: relative;
+  line-height: 16.26px;
+  font-weight: 500;
+}
+.link {
+  color: var(--white);
+}
+.divfooterLinkContainer {
+  position: absolute;
+  top: -1.5px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-0) 4.19000244140625px 0.7600002288818359px
+    var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.28px;
+}
+.sultanAhmedNasser {
+  position: relative;
+  font-weight: 500;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  width: 223px;
+}
+.divfooterLinkContainer1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-0) 3.1199951171875px 0.75px var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.29px;
+}
+.divwNodeBebeba02Bc61Af4c1 {
+  position: absolute;
+  height: 27.35%;
+  width: 10.79%;
+  top: 23.96%;
+  right: 36.19%;
+  bottom: 48.69%;
+  left: 53.02%;
+  color: var(--color-gray-600);
+}
+.downloadCompanyDeck {
+  position: absolute;
+  top: -1.5px;
+  left: 0;
+  line-height: 16.26px;
+  font-weight: 500;
+}
+.divfooterArrowWrapIcon {
+  position: absolute;
+  top: calc(50% - 6.72px);
+  left: 178.86px;
+  width: 13.44px;
+  height: 13.44px;
+  overflow: hidden;
+}
+.divbotLineDarktone,
+.divdownloadFooterWrap {
+  position: absolute;
+  height: 3.43%;
+  width: 11.45%;
+  top: 23.96%;
+  right: 5%;
+  bottom: 72.61%;
+  left: 83.54%;
+}
+.divbotLineDarktone {
+  height: 0.25%;
+  top: 28.45%;
+  bottom: 71.3%;
+  background-color: var(--white);
+}
+.portal2023All {
+  position: relative;
+  line-height: 14.64px;
+}
+.divfooterBotLeft {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 5.079986572265625px var(--padding-5xs)
+    var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 49.63px;
+}
+.cf07a33f4f125387724909BackToIcon {
+  position: relative;
+  width: 11.76px;
+  height: 14.37px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.divtopArrowWrap,
+.link1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.divtopArrowWrap {
+  overflow: hidden;
+  padding: 4.920000076293945px var(--padding-0) 1.0299997329711914px;
+  align-items: flex-start;
+}
+.link1 {
+  position: absolute;
+  top: 0;
+  left: 1388.18px;
+  padding: var(--padding-0) 0.0000019073486328125px 1.6800003051757812px
+    var(--padding-0);
+  align-items: center;
+  gap: 9.06px;
+  font-size: 13.78px;
+  color: var(--white);
+}
+.divfooterBotWrap {
+  position: absolute;
+  height: 4.64%;
+  width: 89.93%;
+  top: 86.75%;
+  right: 5%;
+  bottom: 8.61%;
+  left: 5.06%;
+  cursor: pointer;
+  font-size: 11.31px;
+  color: var(--color-gainsboro);
+}
+.footerItem {
+  position: absolute;
+  height: 8.86%;
+  width: 2.5%;
+  top: 24.05%;
+  right: 92.44%;
+  bottom: 67.09%;
+  left: 5.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 839px);
+  width: 1679px;
+  height: 474px;
+  text-align: left;
+  font-size: 13.78px;
+  color: var(--white);
+  font-family: var(--font-inter);
+}
