@@ -65,6 +65,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  white-space: nowrap;
 }
 .insightsParent {
   display: flex;
@@ -178,6 +179,14 @@
   width: 150px;
   height: 150px;
 }
+@keyframes circularMotion {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .linkIcon {
   position: absolute;
   right: 1428.08px;
@@ -185,6 +194,7 @@
   border-radius: 1303.57px;
   width: 169.5px;
   height: 169.5px;
+  animation: circularMotion 10s linear infinite;
 }
 .workParent {
   top: 4756px;

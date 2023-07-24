@@ -72,10 +72,11 @@ const ContainerFooterHome: FunctionComponent<ContainerFooterHomeType> = ({
         <div className={styles.contactUs}>Careers</div>
       </div>
       <div className={styles.divwNodeBebeba02Bc61Af4c}>
-        <div className={styles.linkLinkedin}>Linkedin</div>
-        <div className={styles.linkInstagram}>Instagram</div>
-        <div className={styles.linkDribbble}>Facebook</div>
-        <div className={styles.linkBehance}>Twitter</div>
+      <div className={styles.linkLinkedin}><a href="https://www.linkedin.com/company/202portal/">Linkedin</a></div>
+      <div className={styles.linkInstagram}><a href="https://www.instagram.com/202.portal/">Instagram</a></div>
+      <div className={styles.linkDribbble}><a href="https://www.facebook.com/202portal">Facebook</a></div>
+      <div className={styles.linkBehance}><a href="https://twitter.com/202Portal">Twitter</a></div>
+
       </div>
       <div className={styles.divwNodeBebeba02Bc61Af4c1}>
         <div className={styles.divfooterLinkContainer}>

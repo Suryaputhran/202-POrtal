@@ -56,10 +56,11 @@ const Insights: FunctionComponent = () => {
             Insights
           </div>
           <div className={styles.insights1}>
-            <div className={styles.insights5}>Services</div>
+            <div className={styles.insights5} onClick={onLinkWork1Click}>Services</div>
+            
           </div>
           <div className={styles.insights1}>
-            <div className={styles.insights5}>About Us</div>
+            <div className={styles.insights5} onClick={onLinkWork2Click}>About Us</div>
           </div>
         </div>
         <div className={styles.linkWrapper}>
@@ -87,36 +88,52 @@ const Insights: FunctionComponent = () => {
       <img className={styles.linkIcon} alt="" src="/link.svg" />
       <div className={styles.workParent}>
         <PasswordContainer
-          passwordManagementText="/mask-group@2x.png"
-          communityAppText="Secure and efficient password management"
-          passwordManagementDescrip="Secure, Efficient, Password Management"
+          passwordManagementText="/darzan1.png"
+          communityAppText="Darzan"
+          passwordManagementDescrip="One Stop shop for pantry and household items based on BULK AND SAVE"
         />
         <PasswordContainer
-          passwordManagementText="/mask-group1@2x.png"
-          communityAppText="Application for local communities"
-          passwordManagementDescrip="Mobile Application, Information Center, Dialogue Facilitation, Virtual Market"
+          passwordManagementText="/202legal1.png"
+          communityAppText="202 Legal"
+          passwordManagementDescrip="All in one marketplace for Lawyers and Legal Offices"
           propDisplay="inline-block"
           propAlignItems="unset"
           propWidth="unset"
         />
         <PasswordContainer
-          passwordManagementText="/mask-group2@2x.png"
-          communityAppText="Project three"
-          passwordManagementDescrip="Category"
+          passwordManagementText="/202meta1.png"
+          communityAppText="202 Meta"
+          passwordManagementDescrip="All in one blockchain solution plaform"
           propDisplay="flex"
           propAlignItems="center"
           propWidth="249.05px"
         />
         <PasswordContainer
-          passwordManagementText="/mask-group3@2x.png"
-          communityAppText="Project four"
-          passwordManagementDescrip="Category"
+          passwordManagementText="/essalootah1.png"
+          communityAppText="Essa Lootah & Sons"
+          passwordManagementDescrip="Holding company with more than 13 investment sectors"
+          propDisplay="flex"
+          propAlignItems="center"
+          propWidth="249.05px"
+        />
+        <PasswordContainer
+          passwordManagementText="/hwg.webp"
+          communityAppText="HWG"
+          passwordManagementDescrip="Holding company with 13 investment sectors"
+          propDisplay="flex"
+          propAlignItems="center"
+          propWidth="249.05px"
+        />
+        <PasswordContainer
+          passwordManagementText="/hws.webp"
+          communityAppText="HWS"
+          passwordManagementDescrip="Holding company with 13 investment sectors"
           propDisplay="flex"
           propAlignItems="center"
           propWidth="249.05px"
         />
       </div>
-      <div className={styles.ourPortfolio}>Our Portfolio</div>
+      <div className={styles.ourPortfolio}>Our Subsidiaries and Partners </div>
       <div className={styles.div}>01</div>
       <img className={styles.insightsInner} alt="" src="/group-20@2x.png" />
       <div className={styles.heading2}>Finance</div>
@@ -177,7 +194,7 @@ const Insights: FunctionComponent = () => {
       </div>
       <div className={styles.frameGroup}>
         <div className={styles.group}>
-          <div className={styles.div1}>03</div>
+          <div className={styles.div1}>05</div>
           <img className={styles.frameItem} alt="" src="/group-204@2x.png" />
           <div className={styles.heading21}>Agriculture</div>
           <div className={styles.inTheHealthcare}>
@@ -192,7 +209,7 @@ const Insights: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.container}>
-          <div className={styles.div1}>04</div>
+          <div className={styles.div1}>06</div>
           <img className={styles.frameItem} alt="" src="/group-205@2x.png" />
           <div className={styles.heading25}>{`Transportation & Logistics`}</div>
           <div className={styles.inTheHealthcare}>
@@ -207,7 +224,7 @@ const Insights: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.parent2}>
-        <div className={styles.div1}>03</div>
+        <div className={styles.div1}>07</div>
         <img className={styles.frameItem} alt="" src="/group-206@2x.png" />
         <div className={styles.heading25}>{`Retail & E-commerce`}</div>
         <div className={styles.inTheHealthcare}>

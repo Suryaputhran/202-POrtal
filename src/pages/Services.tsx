@@ -30,6 +30,7 @@ const Services: FunctionComponent = () => {
 
   const onInsightsTextClick = useCallback(() => {
     navigate("/202-portal");
+    
   }, [navigate]);
 
   const onInsightsText1Click = useCallback(() => {
@@ -37,6 +38,7 @@ const Services: FunctionComponent = () => {
   }, [navigate]);
 
   return (
+    
     <div className={styles.services}>
       <img className={styles.servicesChild} alt="" src="/frame-25.svg" />
       <div className={styles.header} data-scroll-to="headerContainer">
@@ -54,10 +56,10 @@ const Services: FunctionComponent = () => {
             Insights
           </div>
           <div className={styles.insights}>
-            <div className={styles.insights4} onClick={onInsightsText1Click}>Services</div>
+            <div className={styles.insights4} onClick={onLinkWork1Click}>Services</div>
           </div>
           <div className={styles.insights}>
-            <div className={styles.insights4} onClick={onInsightsText1Click}>About Us</div>
+            <div className={styles.insights4} onClick={onLinkWork2Click}>About Us</div>
           </div>
         </div>
         <div className={styles.linkWrapper}>

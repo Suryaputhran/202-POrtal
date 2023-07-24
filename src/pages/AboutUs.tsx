@@ -6,11 +6,11 @@ const AboutUs: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLinkHomeClick = useCallback(() => {
-   // navigate("/202-portal");
+    navigate("/202-portal");
   }, [navigate]);
 
   const onLinkWorkClick = useCallback(() => {
-    navigate("/insights");
+    navigate("/Insights");
   }, [navigate]);
 
   const onLinkWork1Click = useCallback(() => {
@@ -53,10 +53,10 @@ const AboutUs: FunctionComponent = () => {
           <div className={styles.insights2} onClick={onInsightsText1Click}>
             Insights
           </div>
-          <div className={styles.insights}>
+          <div className={styles.insights} onClick={onLinkWork1Click}>
             <div className={styles.insights4}>Services</div>
           </div>
-          <div className={styles.insights}>
+          <div className={styles.insights} onClick={onLinkWork2Click} >
             <div className={styles.insights4}>About Us</div>
           </div>
         </div>

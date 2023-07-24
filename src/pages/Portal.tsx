@@ -39,6 +39,7 @@ const Portal: FunctionComponent = () => {
     navigate("/insights");
   }, [navigate]);
 
+ 
   return (
     <div className={styles.portal}>
       <img className={styles.portalChild} alt="" src="/frame-27.svg" />
@@ -114,14 +115,15 @@ const Portal: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.linkParent}>
-        <div className={styles.link2}>
+      <div className={styles.link2}>
           <div className={styles.divserviceNameWrap}>
             <div className={styles.div}>01</div>
-            <div className={styles.divoverflowHidden}>
-              <div className={styles.heading3}>Artificial Intelligence</div>
+            <div className={styles.divoverflowHidden2}>
+              <div className={styles.heading32}>Artificial Intelligence</div>
             </div>
           </div>
         </div>
+        
         <div className={styles.link2}>
           <div className={styles.divserviceNameWrap}>
             <div className={styles.div}>02</div>
@@ -208,6 +210,8 @@ const Portal: FunctionComponent = () => {
         <div className={styles.divbotLineDarktone} />
       </div>
       <div className={styles.whatOurClients}>WHAT OUR CLIENTs SAY</div>
+      
+
       <SecureContainer
         appDescription="/mask-group4@2x.png"
         passwordManagementDescrip="Secure and efficient password management"
@@ -245,11 +249,11 @@ const Portal: FunctionComponent = () => {
           <div className={styles.insights2} onClick={onInsightsText1Click}>
             Insights
           </div>
-          <div className={styles.insights}>
-            <div className={styles.insights4}>Services</div>
+          <div className={styles.insights}> 
+            <div className={styles.insights4 } onClick={onLinkWork1Click}>Services</div>
           </div>
           <div className={styles.insights}>
-            <div className={styles.insights4}>About Us</div>
+            <div className={styles.insights4 }  onClick={onLinkWork2Click}>About Us</div>
           </div>
         </div>
         <div className={styles.linkWrapper}>

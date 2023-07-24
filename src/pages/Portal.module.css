@@ -187,7 +187,10 @@
   align-items: flex-start;
   justify-content: flex-start;
   font-size: 12.44px;
+
 }
+
+
 .ourServices {
   position: relative;
   line-height: 30.49px;
@@ -328,6 +331,14 @@
   font-size: 18.52px;
   color: var(--white);
 }
+@keyframes circularMotion {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .linkIcon {
   position: absolute;
   right: 301.56px;
@@ -335,6 +346,7 @@
   border-radius: var(--br-1661xl);
   width: 218.44px;
   height: 218.44px;
+  animation: circularMotion 10s linear infinite;
 }
 .divwNode5917848bA5a9Aa66Icon {
   position: absolute;
@@ -523,6 +535,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  white-space: nowrap;
 }
 .insightsParent {
   display: flex;
